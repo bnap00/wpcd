@@ -1,0 +1,21 @@
+{
+    "name": "rtcamp/example",
+    "license": "GPLv2",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "~4.7",
+        "vlucas/phpdotenv": "^2.4",
+        "wpackagist-plugin/nginx-helper": "1.9.8"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "require-dev": {
+        "wp-cli/wp-cli": "1.0"
+    }
+}
